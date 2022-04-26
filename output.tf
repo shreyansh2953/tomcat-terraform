@@ -3,4 +3,6 @@ output "ec2_public_ip" {
 
 
 
+
+
 }
