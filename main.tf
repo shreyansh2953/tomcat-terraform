@@ -111,6 +111,7 @@ resource "aws_instance" "ubuntu_test" {
 
 
 
+
   ami             = "ami-04505e74c0741db8d"
   instance_type   = var.my_instance_type
   subnet_id       = aws_subnet.public-subnet-terra.id
